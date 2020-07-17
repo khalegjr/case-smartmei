@@ -1,0 +1,21 @@
+/* Enuciado: 
+1. Descreva, utilizando lógica de programação, o processo detalhado 
+que você executaria para abrir um aplicativo qualquer no seu smartphone. 
+Considere que o local inicial do smartphone é o bolso e a tela do aparelho 
+está desligada. */
+
+inicio
+    tirar smartphone do bolso;
+    pressionar o botão ligar;
+    se (tiver senha){
+      desbloquear a tela inicial;
+    } se não{
+      acessar o menu;
+    }
+    procurar aplicativo;
+    clicar no icone do aplicativo;
+fim 
+
+
+
+
