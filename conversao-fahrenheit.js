@@ -9,6 +9,6 @@ correspondente em graus Celsius (baseado na fórmula abaixo):
 */
 var fahrenheit = parseFloat(process.argv[2]);
 
-var celsius = ((5 * fahrenheit - 160) / 9).toFixed(2);
+var celsius = ((5 * (fahrenheit - 160)) / 9).toFixed(2);
 
 console.log(fahrenheit + '°F correspondem a ' + celsius + '°C');
